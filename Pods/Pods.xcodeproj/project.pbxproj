@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0382E4A5E11B3DB821724F9BC4BE59DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		05BBC6B5578D85D91ACC95E72CCC3601 /* Pods-GitGraphQLUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4121740528FF426390474421C484FA65 /* Pods-GitGraphQLUITests-dummy.m */; };
+		0C663951824F796EF117A5E6ED5F80EA /* Pods-GitGraphQLTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21C76E82B6F3D57EB6B16A4BFF05ACF0 /* Pods-GitGraphQLTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		606CCF670603B2D7604A9E7B16B73E08 /* Pods-GitGraphQLUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0BE72F0EAE08AFA361DC104E825A049 /* Pods-GitGraphQLUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		886C31A2D3BF57F86DFDFB7DD2CB4615 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A195270BED91850513E5305A59FDDC7E /* Pods-GitGraphQLTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D572B5D84AD083BA184D6C8E97AC37 /* Pods-GitGraphQLTests-dummy.m */; };
+		A4A9BE296C3041EE5AB8BA56CD578FE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DE5E4AEC02EE5EC1FAB3FA678B741C8E /* Pods-GitGraphQL-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 015E6C542917104B0920630D3524A15A /* Pods-GitGraphQL-dummy.m */; };
+		EFF78FC2FA524C77FE9460A9A55C1A37 /* Pods-GitGraphQL-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31276EAD2BB1625CB012519E9632AFBC /* Pods-GitGraphQL-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		015E6C542917104B0920630D3524A15A /* Pods-GitGraphQL-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GitGraphQL-dummy.m"; sourceTree = "<group>"; };
+		04374071B246836C6FEBF44B0EDFF479 /* Pods-GitGraphQLTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GitGraphQLTests-frameworks.sh"; sourceTree = "<group>"; };
+		0C6373C2836017759B818BF1490CDB71 /* Pods-GitGraphQLUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GitGraphQLUITests-resources.sh"; sourceTree = "<group>"; };
+		19CBCC65E771714B9D3A8FB708A1FF91 /* Pods-GitGraphQLUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GitGraphQLUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1F09762D651F50F26AFBBD19B6DE8E9E /* Pods-GitGraphQLUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GitGraphQLUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		21C76E82B6F3D57EB6B16A4BFF05ACF0 /* Pods-GitGraphQLTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GitGraphQLTests-umbrella.h"; sourceTree = "<group>"; };
+		22471739B72CA86024947CC92904A0EA /* Pods-GitGraphQL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GitGraphQL.debug.xcconfig"; sourceTree = "<group>"; };
+		31276EAD2BB1625CB012519E9632AFBC /* Pods-GitGraphQL-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GitGraphQL-umbrella.h"; sourceTree = "<group>"; };
+		3C4707156FAE49214ED0BF5A70B7BFD5 /* Pods-GitGraphQLUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GitGraphQLUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3D3EAFE1E16C097E2F34EEB293DC8579 /* Pods-GitGraphQL-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GitGraphQL-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E9EE8B8FE9755ED15F27D02925EF2A9 /* Pods-GitGraphQL-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GitGraphQL-acknowledgements.plist"; sourceTree = "<group>"; };
+		4121740528FF426390474421C484FA65 /* Pods-GitGraphQLUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GitGraphQLUITests-dummy.m"; sourceTree = "<group>"; };
+		455678992F19289DF70A4C7EE67A140D /* Pods-GitGraphQLTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GitGraphQLTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		514298D91F9BD229E6AB2B1B767E1D5C /* Pods-GitGraphQL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GitGraphQL.release.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69436259E4D2F60CA433A3034FCFC177 /* Pods-GitGraphQLTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GitGraphQLTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6AE14794F2047660FDF264BA799D0CF1 /* Pods-GitGraphQL-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GitGraphQL-frameworks.sh"; sourceTree = "<group>"; };
+		7B5F93B9DC7DDBDFCED9CDD7DC1BBD70 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83796378EF8A310862E13EF7CFD63B72 /* Pods-GitGraphQLTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GitGraphQLTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9179207CAC9BA4BFB15ACDC085808DB8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		926D01F7623AE810D042016452189644 /* Pods_GitGraphQL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GitGraphQL.framework; path = "Pods-GitGraphQL.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3D572B5D84AD083BA184D6C8E97AC37 /* Pods-GitGraphQLTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GitGraphQLTests-dummy.m"; sourceTree = "<group>"; };
+		A98A846BFFB8F659CBABE16FC99BD441 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE7A40C37D017E8C403305FD42BA9B24 /* Pods_GitGraphQLUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GitGraphQLUITests.framework; path = "Pods-GitGraphQLUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB7104D4C68C7E40AD78842D6925F6D /* Pods-GitGraphQL.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GitGraphQL.modulemap"; sourceTree = "<group>"; };
+		B76D6CE50E1586D197C2F7F7525B5342 /* Pods-GitGraphQLTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GitGraphQLTests.modulemap"; sourceTree = "<group>"; };
+		B95CFAD27926CFF08AA875AC3976FFA5 /* Pods-GitGraphQLTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GitGraphQLTests.release.xcconfig"; sourceTree = "<group>"; };
+		BA59C69F571C1068C7C0A832D5C63C89 /* Pods-GitGraphQLUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GitGraphQLUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BE996829D7BE1373231E51D100ACF5A8 /* Pods-GitGraphQLTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GitGraphQLTests-resources.sh"; sourceTree = "<group>"; };
+		C0BE72F0EAE08AFA361DC104E825A049 /* Pods-GitGraphQLUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GitGraphQLUITests-umbrella.h"; sourceTree = "<group>"; };
+		C8BD7FCEE5776A9184E69B8D4613AA6E /* Pods-GitGraphQLUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GitGraphQLUITests.modulemap"; sourceTree = "<group>"; };
+		EA077183C78BEE46A37E837B1CC91E34 /* Pods-GitGraphQLUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GitGraphQLUITests-frameworks.sh"; sourceTree = "<group>"; };
+		F1477A2706913F5800ED6A3DA06CBBDF /* Pods-GitGraphQL-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GitGraphQL-resources.sh"; sourceTree = "<group>"; };
+		F21154BF798BC9D6D393818789E5C81B /* Pods_GitGraphQLTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GitGraphQLTests.framework; path = "Pods-GitGraphQLTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3590B09BB95944428D4A95F5F7B910DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0382E4A5E11B3DB821724F9BC4BE59DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74AF9742D5BCE939A5CCE8F35F3A57FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				886C31A2D3BF57F86DFDFB7DD2CB4615 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A08DC3EA8BEB3557D7C9D2CA05F0056 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A9BE296C3041EE5AB8BA56CD578FE5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		797B6E1EC71D9246406D4C3C77518F86 /* Pods-GitGraphQL */ = {
+			isa = PBXGroup;
+			children = (
+				7B5F93B9DC7DDBDFCED9CDD7DC1BBD70 /* Info.plist */,
+				AEB7104D4C68C7E40AD78842D6925F6D /* Pods-GitGraphQL.modulemap */,
+				3D3EAFE1E16C097E2F34EEB293DC8579 /* Pods-GitGraphQL-acknowledgements.markdown */,
+				3E9EE8B8FE9755ED15F27D02925EF2A9 /* Pods-GitGraphQL-acknowledgements.plist */,
+				015E6C542917104B0920630D3524A15A /* Pods-GitGraphQL-dummy.m */,
+				6AE14794F2047660FDF264BA799D0CF1 /* Pods-GitGraphQL-frameworks.sh */,
+				F1477A2706913F5800ED6A3DA06CBBDF /* Pods-GitGraphQL-resources.sh */,
+				31276EAD2BB1625CB012519E9632AFBC /* Pods-GitGraphQL-umbrella.h */,
+				22471739B72CA86024947CC92904A0EA /* Pods-GitGraphQL.debug.xcconfig */,
+				514298D91F9BD229E6AB2B1B767E1D5C /* Pods-GitGraphQL.release.xcconfig */,
+			);
+			name = "Pods-GitGraphQL";
+			path = "Target Support Files/Pods-GitGraphQL";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A50F842E0265A57F6AEF660359D1E219 /* Products */,
+				A7DBAE63EFC3618B2D33A85488F9A45C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8770E53FCCC18D6D5C56A6917EBEB7FB /* Pods-GitGraphQLTests */ = {
+			isa = PBXGroup;
+			children = (
+				A98A846BFFB8F659CBABE16FC99BD441 /* Info.plist */,
+				B76D6CE50E1586D197C2F7F7525B5342 /* Pods-GitGraphQLTests.modulemap */,
+				455678992F19289DF70A4C7EE67A140D /* Pods-GitGraphQLTests-acknowledgements.markdown */,
+				83796378EF8A310862E13EF7CFD63B72 /* Pods-GitGraphQLTests-acknowledgements.plist */,
+				A3D572B5D84AD083BA184D6C8E97AC37 /* Pods-GitGraphQLTests-dummy.m */,
+				04374071B246836C6FEBF44B0EDFF479 /* Pods-GitGraphQLTests-frameworks.sh */,
+				BE996829D7BE1373231E51D100ACF5A8 /* Pods-GitGraphQLTests-resources.sh */,
+				21C76E82B6F3D57EB6B16A4BFF05ACF0 /* Pods-GitGraphQLTests-umbrella.h */,
+				69436259E4D2F60CA433A3034FCFC177 /* Pods-GitGraphQLTests.debug.xcconfig */,
+				B95CFAD27926CFF08AA875AC3976FFA5 /* Pods-GitGraphQLTests.release.xcconfig */,
+			);
+			name = "Pods-GitGraphQLTests";
+			path = "Target Support Files/Pods-GitGraphQLTests";
+			sourceTree = "<group>";
+		};
+		A50F842E0265A57F6AEF660359D1E219 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				926D01F7623AE810D042016452189644 /* Pods_GitGraphQL.framework */,
+				F21154BF798BC9D6D393818789E5C81B /* Pods_GitGraphQLTests.framework */,
+				AE7A40C37D017E8C403305FD42BA9B24 /* Pods_GitGraphQLUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7DBAE63EFC3618B2D33A85488F9A45C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				797B6E1EC71D9246406D4C3C77518F86 /* Pods-GitGraphQL */,
+				8770E53FCCC18D6D5C56A6917EBEB7FB /* Pods-GitGraphQLTests */,
+				ABB17FB1B0EF9F775D0ED3D3824AA3FB /* Pods-GitGraphQLUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		ABB17FB1B0EF9F775D0ED3D3824AA3FB /* Pods-GitGraphQLUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9179207CAC9BA4BFB15ACDC085808DB8 /* Info.plist */,
+				C8BD7FCEE5776A9184E69B8D4613AA6E /* Pods-GitGraphQLUITests.modulemap */,
+				BA59C69F571C1068C7C0A832D5C63C89 /* Pods-GitGraphQLUITests-acknowledgements.markdown */,
+				19CBCC65E771714B9D3A8FB708A1FF91 /* Pods-GitGraphQLUITests-acknowledgements.plist */,
+				4121740528FF426390474421C484FA65 /* Pods-GitGraphQLUITests-dummy.m */,
+				EA077183C78BEE46A37E837B1CC91E34 /* Pods-GitGraphQLUITests-frameworks.sh */,
+				0C6373C2836017759B818BF1490CDB71 /* Pods-GitGraphQLUITests-resources.sh */,
+				C0BE72F0EAE08AFA361DC104E825A049 /* Pods-GitGraphQLUITests-umbrella.h */,
+				1F09762D651F50F26AFBBD19B6DE8E9E /* Pods-GitGraphQLUITests.debug.xcconfig */,
+				3C4707156FAE49214ED0BF5A70B7BFD5 /* Pods-GitGraphQLUITests.release.xcconfig */,
+			);
+			name = "Pods-GitGraphQLUITests";
+			path = "Target Support Files/Pods-GitGraphQLUITests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		557D87EDFB8DB4F73169CB32F8FD838D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C663951824F796EF117A5E6ED5F80EA /* Pods-GitGraphQLTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97D6DCCE72AB133E5DF6D0B2B85AEFB0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606CCF670603B2D7604A9E7B16B73E08 /* Pods-GitGraphQLUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF532ABE99D716EF73CC0BB62E03FF11 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF78FC2FA524C77FE9460A9A55C1A37 /* Pods-GitGraphQL-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3022818BAA50F36B50AACBD929605E1D /* Pods-GitGraphQLUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 262F200E90E0D7B5B7CDD48020D5651F /* Build configuration list for PBXNativeTarget "Pods-GitGraphQLUITests" */;
+			buildPhases = (
+				315962627D9A95041140F6745476BE9A /* Sources */,
+				8A08DC3EA8BEB3557D7C9D2CA05F0056 /* Frameworks */,
+				97D6DCCE72AB133E5DF6D0B2B85AEFB0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GitGraphQLUITests";
+			productName = "Pods-GitGraphQLUITests";
+			productReference = AE7A40C37D017E8C403305FD42BA9B24 /* Pods_GitGraphQLUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C61BA736381C9A977537F3E12168A4EE /* Pods-GitGraphQLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16325155683760BD2EE1C5C3A7FC6007 /* Build configuration list for PBXNativeTarget "Pods-GitGraphQLTests" */;
+			buildPhases = (
+				B3FFCD6ABB44A375BD248726C947D51C /* Sources */,
+				74AF9742D5BCE939A5CCE8F35F3A57FE /* Frameworks */,
+				557D87EDFB8DB4F73169CB32F8FD838D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GitGraphQLTests";
+			productName = "Pods-GitGraphQLTests";
+			productReference = F21154BF798BC9D6D393818789E5C81B /* Pods_GitGraphQLTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F3352335E93BB236AF8BB0319C5AAD99 /* Pods-GitGraphQL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C963438EF34DDB088904D744C19B735 /* Build configuration list for PBXNativeTarget "Pods-GitGraphQL" */;
+			buildPhases = (
+				07126815D9F971EBD013553469D914CE /* Sources */,
+				3590B09BB95944428D4A95F5F7B910DD /* Frameworks */,
+				DF532ABE99D716EF73CC0BB62E03FF11 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GitGraphQL";
+			productName = "Pods-GitGraphQL";
+			productReference = 926D01F7623AE810D042016452189644 /* Pods_GitGraphQL.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A50F842E0265A57F6AEF660359D1E219 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3352335E93BB236AF8BB0319C5AAD99 /* Pods-GitGraphQL */,
+				C61BA736381C9A977537F3E12168A4EE /* Pods-GitGraphQLTests */,
+				3022818BAA50F36B50AACBD929605E1D /* Pods-GitGraphQLUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07126815D9F971EBD013553469D914CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5E4AEC02EE5EC1FAB3FA678B741C8E /* Pods-GitGraphQL-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315962627D9A95041140F6745476BE9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BBC6B5578D85D91ACC95E72CCC3601 /* Pods-GitGraphQLUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3FFCD6ABB44A375BD248726C947D51C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A195270BED91850513E5305A59FDDC7E /* Pods-GitGraphQLTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4D26F41B9B2B2703FA0A6BE4B466C12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4DB59CBB98025D073DFA13478CC1F14D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		621D4790AC8CE4093A13522213D54B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22471739B72CA86024947CC92904A0EA /* Pods-GitGraphQL.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GitGraphQL/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GitGraphQL/Pods-GitGraphQL.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GitGraphQL;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		907C88FA1459B1B283F8B89F01A1E6EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 514298D91F9BD229E6AB2B1B767E1D5C /* Pods-GitGraphQL.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GitGraphQL/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GitGraphQL/Pods-GitGraphQL.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GitGraphQL;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		90C55F14A6BEDA30CD83BA4CE81E0BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C4707156FAE49214ED0BF5A70B7BFD5 /* Pods-GitGraphQLUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GitGraphQLUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GitGraphQLUITests/Pods-GitGraphQLUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GitGraphQLUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C8B9158A1252465867EA8B5DAABF07DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B95CFAD27926CFF08AA875AC3976FFA5 /* Pods-GitGraphQLTests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GitGraphQLTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GitGraphQLTests/Pods-GitGraphQLTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GitGraphQLTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE13EC61991EAA4957F8902D1C01CC21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69436259E4D2F60CA433A3034FCFC177 /* Pods-GitGraphQLTests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GitGraphQLTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GitGraphQLTests/Pods-GitGraphQLTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GitGraphQLTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D0A9B699B221CB6E80994DB0A8648712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F09762D651F50F26AFBBD19B6DE8E9E /* Pods-GitGraphQLUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GitGraphQLUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GitGraphQLUITests/Pods-GitGraphQLUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GitGraphQLUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C963438EF34DDB088904D744C19B735 /* Build configuration list for PBXNativeTarget "Pods-GitGraphQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				621D4790AC8CE4093A13522213D54B32 /* Debug */,
+				907C88FA1459B1B283F8B89F01A1E6EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16325155683760BD2EE1C5C3A7FC6007 /* Build configuration list for PBXNativeTarget "Pods-GitGraphQLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE13EC61991EAA4957F8902D1C01CC21 /* Debug */,
+				C8B9158A1252465867EA8B5DAABF07DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		262F200E90E0D7B5B7CDD48020D5651F /* Build configuration list for PBXNativeTarget "Pods-GitGraphQLUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0A9B699B221CB6E80994DB0A8648712 /* Debug */,
+				90C55F14A6BEDA30CD83BA4CE81E0BDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DB59CBB98025D073DFA13478CC1F14D /* Debug */,
+				4D26F41B9B2B2703FA0A6BE4B466C12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
