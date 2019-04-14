@@ -35,4 +35,4 @@ If I were to continue working on this, I might add a search bar so that users ca
 I learned a lot and am definitely interested in looking more into GraphQL. Not having to parse JSON, the ability to request exactly what one needs, and receiving that data in a predictable manner makes for an awesome single endpoint API.
 
 ### Sidenote
-Currently using my GitHub token. For reasons unknown, my initial token was somehow deleted from my account without my knowledge and caused 401 responses from GitHub. Should that happen, the token can be replaced in the GraphQLClientProtocol.swift file.
+Github deletes my token when it finds it in a file that I've pushed up as a security measure. In order for the app to work, please replace the token in the GraphQLClientProtocol.swift file.
