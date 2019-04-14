@@ -10,7 +10,7 @@ import Apollo
 import Foundation
 
 let gitBase = "https://api.github.com/graphql"
-let gitToken = "33b3a7db1e7f96ceea868f2fb24b1a98f040b90e"
+let gitToken = "YOUR TOKEN HERE"
 
 protocol GraphQLClientProtocol {
     func reinitialize()
