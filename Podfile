@@ -6,6 +6,7 @@ target 'GitGraphQL' do
   use_frameworks!
 
   # Pods for GitGraphQL
+  pod 'Apollo', '0.10.1'	
 
   target 'GitGraphQLTests' do
     inherit! :search_paths

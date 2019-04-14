@@ -11,12 +11,23 @@
 		CD13AAA21ED3865F37898844 /* Pods_GitGraphQLTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A2201DDAEA62EBDE1EAE12 /* Pods_GitGraphQLTests.framework */; };
 		EBD40A7DB00459CF612585AC /* Pods_GitGraphQLUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C83C9DF3D90E2119BCDD39 /* Pods_GitGraphQLUITests.framework */; };
 		FE2F07E7225C31D200660A20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2F07E6225C31D200660A20 /* AppDelegate.swift */; };
-		FE2F07E9225C31D200660A20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2F07E8225C31D200660A20 /* ViewController.swift */; };
-		FE2F07EC225C31D200660A20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE2F07EA225C31D200660A20 /* Main.storyboard */; };
 		FE2F07EE225C31D400660A20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE2F07ED225C31D400660A20 /* Assets.xcassets */; };
 		FE2F07F1225C31D400660A20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE2F07EF225C31D400660A20 /* LaunchScreen.storyboard */; };
 		FE2F07FC225C31D400660A20 /* GitGraphQLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2F07FB225C31D400660A20 /* GitGraphQLTests.swift */; };
 		FE2F0807225C31D400660A20 /* GitGraphQLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2F0806225C31D400660A20 /* GitGraphQLUITests.swift */; };
+		FE2F0816225D6AFE00660A20 /* RepoScrollVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2F0815225D6AFE00660A20 /* RepoScrollVC.swift */; };
+		FE3CD163225F08570061A383 /* AvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3CD162225F08570061A383 /* AvatarImageView.swift */; };
+		FE3CD165225F0F990061A383 /* RepoScrollViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3CD164225F0F990061A383 /* RepoScrollViewModel.swift */; };
+		FE3CD167225F2F890061A383 /* GraphQLClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3CD166225F2F890061A383 /* GraphQLClientProtocol.swift */; };
+		FE3CD16C226043CA0061A383 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3CD16B226043CA0061A383 /* UIViewExtension.swift */; };
+		FE3CD16E22607A060061A383 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3CD16D22607A060061A383 /* UIColorExtension.swift */; };
+		FE3CD1722262B9A80061A383 /* GraphQLHTTPNetworkTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3CD1712262B9A80061A383 /* GraphQLHTTPNetworkTransport.swift */; };
+		FE7F4E00225D7957002FC02F /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7F4DFF225D7957002FC02F /* Repo.swift */; };
+		FE7F4E02225D7989002FC02F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7F4E01225D7989002FC02F /* User.swift */; };
+		FE7F4E05225D7C9D002FC02F /* RepoScrollCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7F4E03225D7C9D002FC02F /* RepoScrollCell.swift */; };
+		FE7F4E06225D7C9D002FC02F /* RepoScrollCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE7F4E04225D7C9D002FC02F /* RepoScrollCell.xib */; };
+		FE7F4E13225DBE87002FC02F /* RepoScrollVC.graphql in Resources */ = {isa = PBXBuildFile; fileRef = FE7F4E12225DBE87002FC02F /* RepoScrollVC.graphql */; };
+		FE7F4E15225DC66F002FC02F /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7F4E14225DC66F002FC02F /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,8 +59,6 @@
 		F5141223C2B520A0EB6DAC0C /* Pods-GitGraphQL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitGraphQL.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitGraphQL/Pods-GitGraphQL.debug.xcconfig"; sourceTree = "<group>"; };
 		FE2F07E3225C31D200660A20 /* GitGraphQL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitGraphQL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE2F07E6225C31D200660A20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FE2F07E8225C31D200660A20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FE2F07EB225C31D200660A20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE2F07ED225C31D400660A20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE2F07F0225C31D400660A20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE2F07F2225C31D400660A20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,6 +68,19 @@
 		FE2F0802225C31D400660A20 /* GitGraphQLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitGraphQLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE2F0806225C31D400660A20 /* GitGraphQLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitGraphQLUITests.swift; sourceTree = "<group>"; };
 		FE2F0808225C31D400660A20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE2F0815225D6AFE00660A20 /* RepoScrollVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoScrollVC.swift; sourceTree = "<group>"; };
+		FE3CD162225F08570061A383 /* AvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarImageView.swift; sourceTree = "<group>"; };
+		FE3CD164225F0F990061A383 /* RepoScrollViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoScrollViewModel.swift; sourceTree = "<group>"; };
+		FE3CD166225F2F890061A383 /* GraphQLClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQLClientProtocol.swift; sourceTree = "<group>"; };
+		FE3CD16B226043CA0061A383 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		FE3CD16D22607A060061A383 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		FE3CD1712262B9A80061A383 /* GraphQLHTTPNetworkTransport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphQLHTTPNetworkTransport.swift; sourceTree = "<group>"; };
+		FE7F4DFF225D7957002FC02F /* Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
+		FE7F4E01225D7989002FC02F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FE7F4E03225D7C9D002FC02F /* RepoScrollCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoScrollCell.swift; sourceTree = "<group>"; };
+		FE7F4E04225D7C9D002FC02F /* RepoScrollCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepoScrollCell.xib; sourceTree = "<group>"; };
+		FE7F4E12225DBE87002FC02F /* RepoScrollVC.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = RepoScrollVC.graphql; path = "GitGraphQL/Supporting Files/GraphQL/Queries/RepoScrollVC.graphql"; sourceTree = SOURCE_ROOT; };
+		FE7F4E14225DC66F002FC02F /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,11 +160,14 @@
 			isa = PBXGroup;
 			children = (
 				FE2F07E6225C31D200660A20 /* AppDelegate.swift */,
-				FE2F07E8225C31D200660A20 /* ViewController.swift */,
-				FE2F07EA225C31D200660A20 /* Main.storyboard */,
-				FE2F07ED225C31D400660A20 /* Assets.xcassets */,
-				FE2F07EF225C31D400660A20 /* LaunchScreen.storyboard */,
-				FE2F07F2225C31D400660A20 /* Info.plist */,
+				FE3CD161225F08400061A383 /* Components */,
+				FE3CD16A226043A60061A383 /* Extensions */,
+				FE7F4E07225DB734002FC02F /* Models */,
+				FE7F4E19225DD1F2002FC02F /* Networking */,
+				FE7F4E0D225DB7B5002FC02F /* Supporting Files */,
+				FE7F4E08225DB746002FC02F /* VC */,
+				FE7F4E16225DCD03002FC02F /* ViewModels */,
+				FE7F4E09225DB760002FC02F /* Views */,
 			);
 			path = GitGraphQL;
 			sourceTree = "<group>";
@@ -165,6 +190,118 @@
 			path = GitGraphQLUITests;
 			sourceTree = "<group>";
 		};
+		FE3CD161225F08400061A383 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FE3CD162225F08570061A383 /* AvatarImageView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FE3CD16A226043A60061A383 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FE3CD16B226043CA0061A383 /* UIViewExtension.swift */,
+				FE3CD16D22607A060061A383 /* UIColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FE7F4E07225DB734002FC02F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FE7F4DFF225D7957002FC02F /* Repo.swift */,
+				FE7F4E01225D7989002FC02F /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FE7F4E08225DB746002FC02F /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				FE2F0815225D6AFE00660A20 /* RepoScrollVC.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		FE7F4E09225DB760002FC02F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE7F4E0A225DB76C002FC02F /* Cells */,
+				FE7F4E0C225DB78D002FC02F /* Xibs */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FE7F4E0A225DB76C002FC02F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FE7F4E03225D7C9D002FC02F /* RepoScrollCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FE7F4E0C225DB78D002FC02F /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				FE7F4E04225D7C9D002FC02F /* RepoScrollCell.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		FE7F4E0D225DB7B5002FC02F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE2F07ED225C31D400660A20 /* Assets.xcassets */,
+				FE7F4E10225DBE56002FC02F /* GraphQL */,
+				FE2F07F2225C31D400660A20 /* Info.plist */,
+				FE7F4E0E225DB81F002FC02F /* Storyboards */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE7F4E0E225DB81F002FC02F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FE2F07EF225C31D400660A20 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FE7F4E10225DBE56002FC02F /* GraphQL */ = {
+			isa = PBXGroup;
+			children = (
+				FE7F4E14225DC66F002FC02F /* API.swift */,
+				FE7F4E11225DBE69002FC02F /* Queries */,
+			);
+			path = GraphQL;
+			sourceTree = "<group>";
+		};
+		FE7F4E11225DBE69002FC02F /* Queries */ = {
+			isa = PBXGroup;
+			children = (
+				FE7F4E12225DBE87002FC02F /* RepoScrollVC.graphql */,
+			);
+			path = Queries;
+			sourceTree = "<group>";
+		};
+		FE7F4E16225DCD03002FC02F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FE3CD164225F0F990061A383 /* RepoScrollViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FE7F4E19225DD1F2002FC02F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FE3CD166225F2F890061A383 /* GraphQLClientProtocol.swift */,
+				FE3CD1712262B9A80061A383 /* GraphQLHTTPNetworkTransport.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -173,11 +310,11 @@
 			buildConfigurationList = FE2F080B225C31D400660A20 /* Build configuration list for PBXNativeTarget "GitGraphQL" */;
 			buildPhases = (
 				1843AA9846566928C78CBA82 /* [CP] Check Pods Manifest.lock */,
+				FE2F0814225C363900660A20 /* Generate Apollo GraphQL API */,
 				FE2F07DF225C31D200660A20 /* Sources */,
 				FE2F07E0225C31D200660A20 /* Frameworks */,
 				FE2F07E1225C31D200660A20 /* Resources */,
 				5F94BA7E1BECCFF1C08B8619 /* [CP] Embed Pods Frameworks */,
-				B0BAC74BCDF14B32DB8B453A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,8 +333,6 @@
 				FE2F07F3225C31D400660A20 /* Sources */,
 				FE2F07F4225C31D400660A20 /* Frameworks */,
 				FE2F07F5225C31D400660A20 /* Resources */,
-				FAF74F946E415383D32CE355 /* [CP] Embed Pods Frameworks */,
-				E6AA5337BDF5BD84DA387BDD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -217,8 +352,6 @@
 				FE2F07FE225C31D400660A20 /* Sources */,
 				FE2F07FF225C31D400660A20 /* Frameworks */,
 				FE2F0800225C31D400660A20 /* Resources */,
-				FCF1D6884B74DF4C4127C6BE /* [CP] Embed Pods Frameworks */,
-				86551FF7367FAE333C62A246 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -278,9 +411,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE7F4E06225D7C9D002FC02F /* RepoScrollCell.xib in Resources */,
 				FE2F07F1225C31D400660A20 /* LaunchScreen.storyboard in Resources */,
 				FE2F07EE225C31D400660A20 /* Assets.xcassets in Resources */,
-				FE2F07EC225C31D200660A20 /* Main.storyboard in Resources */,
+				FE7F4E13225DBE87002FC02F /* RepoScrollVC.graphql in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,13 +477,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GitGraphQL/Pods-GitGraphQL-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Apollo/Apollo.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Apollo.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitGraphQL/Pods-GitGraphQL-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GitGraphQL/Pods-GitGraphQL-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		647C4AA517C852AC6A6F3D91 /* [CP] Check Pods Manifest.lock */ = {
@@ -370,80 +507,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		86551FF7367FAE333C62A246 /* [CP] Copy Pods Resources */ = {
+		FE2F0814225C363900660A20 /* Generate Apollo GraphQL API */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "Generate Apollo GraphQL API";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitGraphQLUITests/Pods-GitGraphQLUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B0BAC74BCDF14B32DB8B453A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitGraphQL/Pods-GitGraphQL-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E6AA5337BDF5BD84DA387BDD /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitGraphQLTests/Pods-GitGraphQLTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FAF74F946E415383D32CE355 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitGraphQLTests/Pods-GitGraphQLTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FCF1D6884B74DF4C4127C6BE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GitGraphQLUITests/Pods-GitGraphQLUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "APOLLO_FRAMEWORK_PATH=\"$(eval find $FRAMEWORK_SEARCH_PATHS -name \"Apollo.framework\" -maxdepth 1)\"\n\nif [ -z \"$APOLLO_FRAMEWORK_PATH\" ]; then\necho \"error: Couldn't find Apollo.framework in FRAMEWORK_SEARCH_PATHS; make sure to add the framework to your project.\"\nexit 1\nfi\n\ncd \"${SRCROOT}/${TARGET_NAME}/Supporting Files/GraphQL\"\n$APOLLO_FRAMEWORK_PATH/check-and-run-apollo-cli.sh codegen:generate --queries=\"$(find . -name '*.graphql')\" --schema=schema.json API.swift\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -452,8 +532,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE2F07E9225C31D200660A20 /* ViewController.swift in Sources */,
+				FE3CD163225F08570061A383 /* AvatarImageView.swift in Sources */,
+				FE3CD16C226043CA0061A383 /* UIViewExtension.swift in Sources */,
+				FE2F0816225D6AFE00660A20 /* RepoScrollVC.swift in Sources */,
+				FE3CD167225F2F890061A383 /* GraphQLClientProtocol.swift in Sources */,
+				FE7F4E05225D7C9D002FC02F /* RepoScrollCell.swift in Sources */,
 				FE2F07E7225C31D200660A20 /* AppDelegate.swift in Sources */,
+				FE3CD1722262B9A80061A383 /* GraphQLHTTPNetworkTransport.swift in Sources */,
+				FE7F4E02225D7989002FC02F /* User.swift in Sources */,
+				FE7F4E15225DC66F002FC02F /* API.swift in Sources */,
+				FE3CD16E22607A060061A383 /* UIColorExtension.swift in Sources */,
+				FE7F4E00225D7957002FC02F /* Repo.swift in Sources */,
+				FE3CD165225F0F990061A383 /* RepoScrollViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,14 +579,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FE2F07EA225C31D200660A20 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FE2F07EB225C31D200660A20 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FE2F07EF225C31D400660A20 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -631,12 +713,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NU4Z69HCZ2;
-				INFOPLIST_FILE = GitGraphQL/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				INFOPLIST_FILE = "$(SRCROOT)/GitGraphQL/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.elexlee.GitGraphQL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -647,12 +732,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NU4Z69HCZ2;
-				INFOPLIST_FILE = GitGraphQL/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				INFOPLIST_FILE = "$(SRCROOT)/GitGraphQL/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.elexlee.GitGraphQL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -665,7 +753,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NU4Z69HCZ2;
 				INFOPLIST_FILE = GitGraphQLTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.elexlee.GitGraphQLTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -683,7 +775,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NU4Z69HCZ2;
 				INFOPLIST_FILE = GitGraphQLTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.elexlee.GitGraphQLTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -700,7 +796,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NU4Z69HCZ2;
 				INFOPLIST_FILE = GitGraphQLUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.elexlee.GitGraphQLUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -717,7 +817,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NU4Z69HCZ2;
 				INFOPLIST_FILE = GitGraphQLUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.elexlee.GitGraphQLUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
