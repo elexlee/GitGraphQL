@@ -10,7 +10,7 @@ import Apollo
 import Foundation
 
 let gitBase = "https://api.github.com/graphql"
-let gitToken = "9e1a049407d113ee98cf9e62f29ef5be43db7956"
+let gitToken = "33b3a7db1e7f96ceea868f2fb24b1a98f040b90e"
 
 protocol GraphQLClientProtocol {
     func reinitialize()
@@ -36,7 +36,7 @@ class GraphQLClient: GraphQLClientProtocol {
         self.apolloClient = ApolloClient(networkTransport: GraphQLHTTPNetworkTransport(url: url, authToken: gitToken, configuration: safeConfiguration))
     }
     
-    func repositories(query: String? = "graphql", count: Int? = 20, with cursor: String? = nil, completion: @escaping (GraphQLResult<SearchRepositoriesQuery.Data>?, Error?) -> ()) {
+    func repositories(query: String? = "GraphQL", count: Int? = 20, with cursor: String? = nil, completion: @escaping (GraphQLResult<SearchRepositoriesQuery.Data>?, Error?) -> ()) {
         let searchRepositoryQuery = SearchRepositoriesQuery(query: query!, count: count!, cursor: cursor)
         apolloClient.fetch(query: searchRepositoryQuery, cachePolicy: defaultCachePolicy) { result, error in
             
