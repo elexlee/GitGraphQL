@@ -61,6 +61,14 @@ final class RepoScrollViewModel {
         
         GraphQLClient.shared.repositories(with: currentEndCursor) { (result, error) in
             DispatchQueue.main.async {
+                if let error = error {
+                    if let statusError = error as? GraphQLHTTPStatusError {
+                        self.delegate?.repoFetchFailed(with: String(statusError.status))
+                    } else {
+                        self.delegate?.repoFetchFailed(with: error.localizedDescription)
+                    }
+                    return
+                }
                 self.currentlyFetching = false
                 self.total = result?.data?.search.repositoryCount ?? 0
                 

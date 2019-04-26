@@ -39,9 +39,12 @@ class GraphQLClient: GraphQLClientProtocol {
     func repositories(query: String? = "GraphQL", count: Int? = 20, with cursor: String? = nil, completion: @escaping (GraphQLResult<SearchRepositoriesQuery.Data>?, Error?) -> ()) {
         let searchRepositoryQuery = SearchRepositoriesQuery(query: query!, count: count!, cursor: cursor)
         apolloClient.fetch(query: searchRepositoryQuery, cachePolicy: defaultCachePolicy) { result, error in
-            
-            if let error = error { print("Error: \(error)"); return }
-            completion(result, nil)
+            if let error = error {
+                print("Error: \(error)")
+                completion(nil, error)
+            } else {
+                completion(result, nil)
+            }
         }
     }
 }

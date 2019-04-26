@@ -9,8 +9,12 @@
 import Apollo
 import Foundation
 
-class GraphQLHTTPNetworkTransport: NetworkTransport {
+struct GraphQLHTTPStatusError: Error {
+    var status: Int
+}
 
+class GraphQLHTTPNetworkTransport: NetworkTransport {
+    
     enum HTTPMethod: String {
         case get    = "GET"
         case post   = "POST"
@@ -40,11 +44,12 @@ class GraphQLHTTPNetworkTransport: NetworkTransport {
         request.httpBody = try! serializationFormat.serialize(value: body)
         
         let task = session.dataTask(with: request) { (data, response, error) in
-            if error != nil { return }
+            if error != nil { completionHandler(nil,error); return }
             guard let httpResponse = response as? HTTPURLResponse else { print("\(String(describing: response)) not an HTTPURLResponse"); return }
             
             if httpResponse.statusCode != 200 {
                 print("Request failed with response: \(httpResponse)")
+                completionHandler(nil, GraphQLHTTPStatusError(status: httpResponse.statusCode))
             } else {
                 do {
                     guard let data = data else { return }
