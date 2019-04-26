@@ -63,7 +63,7 @@ final class RepoScrollViewModel {
             DispatchQueue.main.async {
                 if let error = error {
                     if let statusError = error as? GraphQLHTTPStatusError {
-                        self.delegate?.repoFetchFailed(with: String(statusError.status))
+                        self.delegate?.repoFetchFailed(with: "HTTP Status: \(String(statusError.status))")
                     } else {
                         self.delegate?.repoFetchFailed(with: error.localizedDescription)
                     }
